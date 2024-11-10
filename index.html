@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="syle.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-up">
+        <button class="btn again">Again</button>
+        <p>Between 1 and 20</p>
+      </div>
+      <div class="header-down">
+        <p class="title">Guess My Number</p>
+        <p class="correct-number secret">?</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="left-side">
+        <input type="number" class="input" />
+        <button class="btn check">Check</button>
+      </div>
+      <div class="right-side">
+        <p class="message">Start guessing...</p>
+        <p class="scoreText">💯 Score: <span class="score">20</span></p>
+        <p class="highscoreText">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
